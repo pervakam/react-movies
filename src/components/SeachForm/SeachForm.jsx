@@ -35,7 +35,7 @@ const SearchForm = (props) => {
         </div>
       </div>
       <div className="row">
-        <div className="col s2">
+        <div className="col">
           <label>
             <input
               type="radio"
@@ -48,7 +48,7 @@ const SearchForm = (props) => {
             <span>All</span>
           </label>
         </div>
-        <div className="col s2">
+        <div className="col">
           <label>
             <input
               type="radio"
@@ -61,7 +61,7 @@ const SearchForm = (props) => {
             <span>Movies</span>
           </label>
         </div>
-        <div className="col s2">
+        <div className="col">
           <label>
             <input
               type="radio"
