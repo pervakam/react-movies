@@ -1,0 +1,67 @@
+.movie-card {
+    width: 18%;
+    min-height: 500px;
+    height: auto;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+
+    &__image {
+        min-height: 340px;
+        height: 340px;
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+
+        img {
+            height: 100%;
+            width: auto;
+        }
+    }
+
+    &__content {
+        padding: 16px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        h5 {
+            margin-top: 0;
+            margin-bottom: 24px;
+        }
+    }
+
+    &__description {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        span {
+            display: block;
+        }
+    }
+
+    &__content-type {
+        color: white;
+        box-sizing: border-box;
+        padding: 4px;
+        border-radius: 4px;
+
+        &--movie {
+            background-color: green;
+        }
+
+        &--series {
+            background-color: orange;
+        }
+
+        &--episode {
+            background-color: blue;
+        }
+
+        &--game {
+            background-color: red;
+        }
+    }
+}
