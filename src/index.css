@@ -1,3 +1,10 @@
+@import "materialize-css";
+/*@import "./components/PageContent/PageContent.scss";*/
+@import "./components/PageHeader/PageHeader.scss";
+@import "./components/MoviesList/MoviesList.scss";
+@import "./components/PageFooter/PageFooter.scss";
+
+
 html {
   height: 100%;
 }
@@ -20,7 +27,7 @@ body {
 
 .content {
   max-width: 1280px;
-  padding: 0 40px !important;
+  padding: 0 40px 40px !important;
   width: 100%;
   margin: 0 auto;
 }
@@ -38,8 +45,8 @@ body {
   clip-path: inset(100%);
 }
 
-@import "materialize-css";
-@import "./components/PageHeader/PageHeader.scss";
-@import "./components/PageContent/PageContent.scss";
-@import "./components/PageFooter/PageFooter.scss";
-@import "./components/MoviesList/MoviesList.scss";
+.observer {
+  height: 30px;
+  background-color: green;
+}
+
